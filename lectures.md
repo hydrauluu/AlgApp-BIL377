@@ -1,20 +1,24 @@
 ---
 layout: page
-title: içerik
+title: İçerik
 permalink: /lectures
 ---
 
-Aşağıdaki tablo, haftalık konu akışını içerir. 
+## Güncel ders sunumları
 
-| Hafta | Konu |
-|---|---|
-| 1 | Tanışma, ders içeriği, beklentiler |
-| 2 | [Giriş]({{ '/slides/1-Giris.pdf' | relative_url }}){:download} |
-| 3 | [Yürütme Zamanı ve Asimptotik Analiz]({{ '/slides/2-Yurutme-Zamani-ve-Asimptotik-Analiz.pdf' | relative_url }}){:download} |
-| 4 | [Recursive Algoritmalar ve Rekürans Analizi]({{ '/slides/3-Recursive-Algoritmalar-ve-Rekurans-Analizi.pdf' | relative_url }}){:download} |
-| 5 | [Recurrence Analizi Örnekler]({{ '/slides/4-Recurrence-Analizi-Ornekler.pdf' | relative_url }}){:download} |
-| 6 | [Dinamik Programlama]({{ '/slides/5-Dinamik-Programlama.pdf' | relative_url }}){:download} |
-| 7 | [Binary Tree Balance]({{ '/slides/6-Binary-Tree-Balance.pdf' | relative_url }}){:download} |
-| 8 | [Dizi Karşılaştırma]({{ '/slides/7-Dizi-Karsilastirma.pdf' | relative_url }}){:download} |
-| 9 | [Graflar]({{ '/slides/8-Graflar.pdf' | relative_url }}){:download} |
-| 10 | [Heap]({{ '/slides/9-Heap.pdf' | relative_url }}){:download} |
+1–8. haftaların güncel sunumları PDF biçiminde aşağıdadır.
+
+Abdulkadir Şeker — BİL377 Algoritma Uygulamaları
+
+| Hafta | Konu | Slayt sayısı | PDF |
+|---:|---|---:|---|
+| 1 | Ders Tanıtımı | 20 | [PDF]({{ '/slides/01_ders_tanitimi.pdf' | relative_url }}) |
+| 2 | Algoritmalar ve Doğruluk | 21 | [PDF]({{ '/slides/02_algoritma_dogruluk.pdf' | relative_url }}) |
+| 3 | Yürütme Zamanı ve Asimptotik Analiz | 42 | [PDF]({{ '/slides/03_asimptotik_analiz.pdf' | relative_url }}) |
+| 4 | Özyineleme ve Reküranslar | 42 | [PDF]({{ '/slides/04_rekuranslar.pdf' | relative_url }}) |
+| 5 | Master Teoremi ve Böl-Yönet | 47 | [PDF]({{ '/slides/05_master_bol_yonet.pdf' | relative_url }}) |
+| 6 | Sıralama ve Seçim Uygulamaları | 47 | [PDF]({{ '/slides/06_siralamaya_uygulamalar.pdf' | relative_url }}) |
+| 7 | Dinamik Programlama Temelleri | 50 | [PDF]({{ '/slides/07_dinamik_programlama_temelleri.pdf' | relative_url }}) |
+| 8 | Dinamik Programlama Uygulamaları | 42 | [PDF]({{ '/slides/08_dinamik_programlama_uygulamalari.pdf' | relative_url }}) |
+
+Son güncelleme: 10 Kasım 2026.
