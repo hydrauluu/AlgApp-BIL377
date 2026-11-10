@@ -12,7 +12,7 @@ Her grup seçtiği problem için:
 
 1. Problemin tanımını, girdilerini, beklenen çıktısını ve amacını açıklayacak.
 2. DP durumunun neyi temsil ettiğini, başlangıç koşullarını ve geçiş bağıntısını (recurrence relation) örnek üzerinden açıklayacak.
-3. Çalışan kodunu **Java veya Python** ile yazacak; çalıştırma adımlarını ve örnek girdileri/çıktıları paylaşacak.
+3. Çalışan kodunu **Java veya Python** ile yazacak; kodu, çalıştırma adımlarını ve örnek girdileri/çıktıları PDF raporuna ekleyecek.
 4. Derste gösterildiği gibi **bir GIF animasyonu ve DP tablosu** hazırlayacak. GIF, küçük bir örnekte problemin nasıl çözüldüğünü adım adım gösterecek; tablo, aynı örnekte durumların hangi sırayla ve nasıl hesaplandığını açıklayacak. GIF, tablo ve kodun sonucu birbiriyle tutarlı olacak.
 5. Zaman ve bellek karmaşıklığını, kullanılan değişkenlerin anlamını belirterek analiz edecek.
 6. Çözümünü sınıfta sunacak ve PDF raporunda açıklayacak.
@@ -48,13 +48,13 @@ Bu konuda her para biriminden **sınırsız sayıda** kullanılabilir ve **sıra
 
 #### 📦 Teslim biçimi
 
-Her grup tek bir teslim yapacaktır:
+Her grup teslimini **dersin Telegram grubundan** tek bir paylaşım olarak yapacaktır. Paylaşımda aşağıdakiler yer almalıdır:
 
-- **GitHub repo bağlantısı:** Java veya Python kodu, çalıştırma açıklamaları ve örnek girdiler/çıktılar.
-- **PDF açıklama dosyası:** Problem tanımı, DP mantığı ve bağıntısı, örnek DP tablosu, zaman ve bellek analizi.
-- **GIF dosyası:** Derste gösterildiği gibi adım adım çözüm animasyonu; depoya eklenmeli ve README dosyasından görüntülenebilmelidir.
+- **Öğrenci bilgileri:** Grubun iki öğrencisinin adı, soyadı ve öğrenci numarası; seçilen ödev konusu.
+- **GIF dosyası:** Derste gösterildiği gibi adım adım çözüm animasyonu.
+- **PDF açıklama dosyası:** Problem tanımı, DP mantığı ve bağıntısı, örnek DP tablosu, Java veya Python kodu, çalıştırma adımları, örnek girdiler/çıktılar, zaman ve bellek analizi.
 
-Grubun iki öğrencisinin adı ve öğrenci numarası README dosyasında ve PDF raporunda yer almalıdır.
+GIF ve PDF, Telegram paylaşımına dosya olarak eklenmelidir. İki öğrencinin adı, soyadı ve öğrenci numarası PDF raporunun ilk sayfasında da yer almalıdır.
 
 > 🔹 **Değerlendirme:**
 >
@@ -65,4 +65,4 @@ Grubun iki öğrencisinin adı ve öğrenci numarası README dosyasında ve PDF 
 
 ---
 
-🗓️ **Teslim tarihi:** Duyurulacaktır.
+🗓️ **Son teslim:** 10 Kasım 2026, saat **23.59** (Bişkek saati).
