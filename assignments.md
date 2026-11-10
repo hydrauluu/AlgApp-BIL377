@@ -56,6 +56,18 @@ Her grup teslimini **dersin Telegram grubundan** tek bir paylaşım olarak yapac
 
 GIF ve PDF, Telegram paylaşımına dosya olarak eklenmelidir. İki öğrencinin adı, soyadı ve öğrenci numarası PDF raporunun ilk sayfasında da yer almalıdır.
 
+#### GitHub üzerinden isteğe bağlı PR
+
+İsteyen gruplar çalışmalarını **şimdiden Pull Request (PR)** açarak da paylaşabilir. Bu ödevde PR açmak **isteğe bağlıdır**; tüm gruplar GIF ve PDF dosyalarını **10 Kasım 2026 saat 23.59'a kadar (Bişkek saati) Telegram grubuna** göndermelidir. PR açılması, Telegram tesliminin yerine geçmez ve değerlendirme yüzdelerini değiştirmez.
+
+PR açmak isteyen gruplar:
+
+1. [Ders reposunu](https://github.com/kadirseker00/AlgApp-BIL377) fork eder.
+2. Kod, GIF, PDF ve kısa bir README dosyasını yalnızca kendi `teslimler/odev1/grupXX/` klasörüne ekler (`XX`: grup numarası).
+3. Ders reposunun `main` dalına, `Ödev 1 | Grup XX | Konu adı` başlığıyla grup başına tek PR açar. Diğer grupların dosyalarını ve ders materyallerini değiştirmez.
+
+GitHub herkese açık olduğundan, PR açıklamasında ve repoya eklenen dosyalarda öğrenci numaraları yer almamalıdır. Öğrenci numaraları Telegram paylaşımında ve Telegram'a gönderilen PDF'de bulunmalıdır; GitHub'a eklenecek PDF'nin numaraları çıkarılmış bir kopyası kullanılmalıdır.
+
 > 🔹 **Değerlendirme:**
 >
 > - DP mantığının doğru açıklanması (30%)
