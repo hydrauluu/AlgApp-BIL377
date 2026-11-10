@@ -5,44 +5,64 @@ permalink: /assignments
 ---
 
 ### 💡 Ödev 1 — Dinamik Programlama (DP) Konu Sunumları
-Her öğrenci aşağıdaki DP problemlerinden **birini seçerek**:
-1. Problemin tanımını ve amaçlarını yazacak  
-2. DP yaklaşımının formülünü (recurrence relation) açıklayacak  
-3. Kodunu (Java veya Python) yazacak  
-4. Küçük bir örnekle tabloyu gösterecek  
-5. Zaman ve bellek karmaşıklığını analiz edecek  
+
+Ödev **iki kişilik gruplar** hâlinde hazırlanacaktır. 36 öğrenci, toplam **18 grup** oluşturacaktır. Her grup aşağıdaki 18 konudan **birini** seçecek; her konu yalnızca bir grup tarafından alınacaktır.
+
+Her grup seçtiği problem için:
+
+1. Problemin tanımını, girdilerini, beklenen çıktısını ve amacını açıklayacak.
+2. DP durumunun neyi temsil ettiğini, başlangıç koşullarını ve geçiş bağıntısını (recurrence relation) örnek üzerinden açıklayacak.
+3. Çalışan kodunu **Java veya Python** ile yazacak; çalıştırma adımlarını ve örnek girdileri/çıktıları paylaşacak.
+4. Derste gösterildiği gibi **bir GIF animasyonu ve DP tablosu** hazırlayacak. GIF, küçük bir örnekte problemin nasıl çözüldüğünü adım adım gösterecek; tablo, aynı örnekte durumların hangi sırayla ve nasıl hesaplandığını açıklayacak. GIF, tablo ve kodun sonucu birbiriyle tutarlı olacak.
+5. Zaman ve bellek karmaşıklığını, kullanılan değişkenlerin anlamını belirterek analiz edecek.
+6. Çözümünü sınıfta sunacak ve PDF raporunda açıklayacak.
 
 #### 🎓 Konu Listesi
-1. Fibonacci Number  
-2. Factorial (Memoization)  
-3. 0/1 Knapsack  
-4. Unbounded Knapsack  
-5. Coin Change (Minimum Coin Sayısı)  
-6. Coin Change (Kombinasyon Sayısı)  
-7. Subset Sum  
-8. Partition Equal Subset Sum  
-9. Longest Common Subsequence (LCS)  
-10. Longest Common Substring  
-11. Edit Distance (Levenshtein)  
-12. Matrix Chain Multiplication  
-13. Longest Palindromic Subsequence  
-14. Minimum Palindrome Partitioning  
-15. Rod Cutting Problem  
-16. House Robber Problem  
-17. Climbing Stairs  
-18. Unique Paths (Robot Grid)  
-19. Longest Increasing Subsequence (LIS)  
-20. Optimal Binary Search Tree (OBST)
 
-> 🔹 **Teslim biçimi:**  
-> GitHub repo bağlantısı + PDF açıklama dosyası  
->  
-> 🔹 **Değerlendirme:**  
-> - DP mantığının doğru açıklanması (30%)  
-> - Kodun doğruluğu (30%)  
-> - Görselleştirme / tablo (20%)  
+1. Fibonacci Number
+2. Factorial (Memoization)
+3. Unbounded Knapsack
+4. Coin Change — Hedef Tutarı Oluşturan Farklı Kombinasyonların Sayısı
+5. Subset Sum
+6. Partition Equal Subset Sum
+7. Longest Common Subsequence (LCS)
+8. Longest Common Substring
+9. Edit Distance (Levenshtein)
+10. Matrix Chain Multiplication
+11. Longest Palindromic Subsequence
+12. Minimum Palindrome Partitioning
+13. Rod Cutting Problem
+14. House Robber Problem
+15. Climbing Stairs
+16. Unique Paths (Robot Grid)
+17. Longest Increasing Subsequence (LIS)
+18. Optimal Binary Search Tree (OBST)
+
+#### Coin Change konusunun kapsamı
+
+Derste çözülen **minimum para sayısı** problemi, bir tutarı oluşturmak için en az kaç madeni para gerektiğini sorar. Bu ödevdeki **kombinasyon sayısı** problemi ise aynı tutarın kaç farklı para kombinasyonuyla oluşturulabileceğini sorar.
+
+Örneğin para birimleri `[1, 3, 4]`, hedef tutar `6` olduğunda minimum para sayısı `2` olur (`3 + 3`). Kombinasyon sayısı ise `4` olur: `1+1+1+1+1+1`, `3+1+1+1`, `3+3` ve `4+1+1`.
+
+Bu konuda her para biriminden **sınırsız sayıda** kullanılabilir ve **sıra önemli değildir**: `4+1+1` ile `1+4+1` aynı kombinasyondur. Çözüm, minimum para sayısını değil, bu kurallara göre **tüm farklı kombinasyonların sayısını** hesaplamalıdır. GIF ve DP tablosu da bu sayımın nasıl yapıldığını göstermelidir.
+
+#### 📦 Teslim biçimi
+
+Her grup tek bir teslim yapacaktır:
+
+- **GitHub repo bağlantısı:** Java veya Python kodu, çalıştırma açıklamaları ve örnek girdiler/çıktılar.
+- **PDF açıklama dosyası:** Problem tanımı, DP mantığı ve bağıntısı, örnek DP tablosu, zaman ve bellek analizi.
+- **GIF dosyası:** Derste gösterildiği gibi adım adım çözüm animasyonu; depoya eklenmeli ve README dosyasından görüntülenebilmelidir.
+
+Grubun iki öğrencisinin adı ve öğrenci numarası README dosyasında ve PDF raporunda yer almalıdır.
+
+> 🔹 **Değerlendirme:**
+>
+> - DP mantığının doğru açıklanması (30%)
+> - Kodun doğruluğu (30%)
+> - Görselleştirme / tablo (20%): Derste gösterildiği gibi bir GIF animasyonu **ve** DP tablosu.
 > - Rapor dili ve düzen (20%)
 
 ---
 
-🗓️ **Teslim tarihi:**  _27 10 2025_  
+🗓️ **Teslim tarihi:** Duyurulacaktır.
